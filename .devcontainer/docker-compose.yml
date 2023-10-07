@@ -6,3 +6,11 @@ services:
     #   - 80:80
     volumes:
       - ..:/home/developer/workspace
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+        limits:
+          # limit cpu usage to prevent system hangs
+          cpus: '0.70'
