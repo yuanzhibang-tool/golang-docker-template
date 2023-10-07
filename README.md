@@ -1,2 +1,2 @@
 # golang-docker-template
-golang
+dev golang in docker template
