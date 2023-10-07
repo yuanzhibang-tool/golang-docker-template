@@ -1,0 +1,8 @@
+version: '3.2'
+services:
+  go-dev:
+    build: .
+    # ports:
+    #   - 80:80
+    volumes:
+      - ..:/home/developer/workspace

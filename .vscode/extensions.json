@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "golang.go",
+        "github.copilot",
+        "github.copilot-labs",
+        "github.copilot-chat",
+        "gruntfuggly.todo-tree",
+        "formulahendry.code-runner",
+        "aaron-bond.better-comments",
+        "ms-azuretools.vscode-docker"
+    ]
+}
