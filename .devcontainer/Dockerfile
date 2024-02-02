@@ -1,4 +1,4 @@
-FROM golang:1.21.2-bullseye
+FROM golang:1.21.6-bullseye
 ARG DEBIAN_FRONTEND=noninteractive
 RUN echo 'start build'
 RUN LC_ALL=C.UTF-8
